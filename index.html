@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>The numbers game</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Graduate&family=Montserrat&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="position">
+         <div class="container">
+            <h1>Number guessing game</h1>
+            <h3>The computer has selected a random number between 1 and 50. <br> See if you can guess it in <span>10</span> turns or fewer. <br> The computer will tell you if your guess was too high or too low.</h3>
+            <h2>Who will win, you or the computer?</h2>
+            <input type="number" id="input" placeholder="Enter a number..."><br>
+            <button id="btn">Play</button>
+            <div class="resultData">
+               <p class="guesses"></p>
+               <p class="result"></p>
+               <p class="lowOrHigh"></p>
+            </div>
+         </div>
+      </div>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="script.js"></script>
+   </body>
+</html>
